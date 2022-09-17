@@ -66,4 +66,3 @@ def get_logger(path: Path, path_log_file: Path = PATH_LOG_FILE) -> logging.Logge
 
 if __name__ == '__main__':
     print(get_email_info())
-    # print(os.environ.get('EMAIL_COPY', '').split())

@@ -24,7 +24,6 @@ def run_robot():
         email_info['email_login'],
         email_info['email_subject'],
         min(len(data['USD_RUB']), len(data['JPY_RUB'])),
-        # []
         email_info['email_copy']
     )
 

@@ -189,7 +189,6 @@ def handle_trs_report(trs: list[WebElement]) -> list:
     """
     data_report = []
     for el in trs:
-        # converter_tr_in_report(el)
         val = converter_tr_in_report(el)
         if val:
             data_report.append(val)
